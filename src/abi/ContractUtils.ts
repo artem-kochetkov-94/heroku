@@ -1,0 +1,40 @@
+export const ContractUtilsAbi = [
+  {
+    inputs: [
+      { internalType: 'address[]', name: 'tokens', type: 'address[]' },
+      { internalType: 'address', name: 'adr', type: 'address' },
+    ],
+    name: 'erc20Balances',
+    outputs: [{ internalType: 'uint256[]', name: '', type: 'uint256[]' }],
+    stateMutability: 'view',
+    type: 'function',
+  },
+  {
+    inputs: [{ internalType: 'address[]', name: 'tokens', type: 'address[]' }],
+    name: 'erc20Decimals',
+    outputs: [{ internalType: 'uint8[]', name: '', type: 'uint8[]' }],
+    stateMutability: 'view',
+    type: 'function',
+  },
+  {
+    inputs: [{ internalType: 'address[]', name: 'tokens', type: 'address[]' }],
+    name: 'erc20Names',
+    outputs: [{ internalType: 'string[]', name: '', type: 'string[]' }],
+    stateMutability: 'view',
+    type: 'function',
+  },
+  {
+    inputs: [{ internalType: 'address[]', name: 'tokens', type: 'address[]' }],
+    name: 'erc20Symbols',
+    outputs: [{ internalType: 'string[]', name: '', type: 'string[]' }],
+    stateMutability: 'view',
+    type: 'function',
+  },
+  {
+    inputs: [{ internalType: 'address[]', name: 'tokens', type: 'address[]' }],
+    name: 'erc20TotalSupply',
+    outputs: [{ internalType: 'uint256[]', name: '', type: 'uint256[]' }],
+    stateMutability: 'view',
+    type: 'function',
+  },
+]

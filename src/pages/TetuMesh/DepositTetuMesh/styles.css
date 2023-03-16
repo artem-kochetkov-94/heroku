@@ -1,0 +1,118 @@
+.tetuMesh-modal-title {
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding: 0 32px 24px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .tetuMesh-modal-title {
+    padding: 0 20px 24px;
+  }
+}
+
+.tetuMesh-modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 0;
+
+  background: #1e2839;
+}
+
+.tetuMesh-modal-content-text {
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .tetuMesh-modal-content-text {
+    font-size: 14px;
+  }
+}
+
+.tetuMesh-modal-content-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  margin-left: 8px;
+  padding: 3px 8px;
+
+  height: 20px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+
+  border-radius: 10px;
+
+  background: #f7981c;
+  color: #ffffff;
+}
+
+.tetuMesh-modal-description {
+  margin-bottom: 40px;
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #c4c4df;
+}
+
+.tetuMesh-modal-description span {
+  color: #fff;
+}
+
+.tetuMesh-trade-modal {
+  width: 448px !important;
+}
+
+.tetuMesh-trade-modal .ant-modal-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width: 575px) {
+  .tetuMesh-trade-modal .ant-modal-body {
+    padding-top: 30px;
+  }
+}
+
+.tetuMesh-modal-footer {
+  padding: 24px 32px 0;
+}
+
+@media (max-width: 575px) {
+  .tetuMesh-modal-footer {
+    padding: 24px 20px 0;
+  }
+}

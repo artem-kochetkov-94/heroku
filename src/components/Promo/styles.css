@@ -1,0 +1,42 @@
+.promo-layout {
+  padding: 12px 24px;
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  box-shadow: inset -2px 2px 25px rgba(104, 109, 241, 0.4); */
+
+  background: #222d40;
+  border-radius: 8px;
+}
+
+@media (max-width: 575px) {
+  .promo-layout {
+    margin-bottom: 12px !important;
+    padding: 12px 20px;
+  }
+}
+
+.promo-layout.main-page {
+  min-height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo-layout .text {
+  /* font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: bold; */
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #7f8fa4;
+}
+
+.promo-layout .btn {
+  width: calc(100% - 30px);
+  margin-left: 30px;
+}

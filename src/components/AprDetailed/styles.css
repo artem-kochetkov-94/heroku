@@ -1,0 +1,44 @@
+.apr-detailed {
+}
+
+.apr-detailed-title {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.apr-detailed-sub-title {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #c4c4df;
+}
+
+.apr-detailed-values {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.apr-detailed-item-icon {
+  max-height: 24px;
+  margin-right: 4px;
+}
+
+.apr-detailed-item {
+  flex-basis: 30%;
+  width: 30%;
+  max-width: 30%;
+}
+
+.apr-detailed-item .apr {
+}
+
+.apr-detailed-item .apy {
+  font-size: 14px;
+  color: #c4c4df;
+}
+
+.apr-detailed-label {
+  font-size: 14px;
+  color: #c4c4df;
+}

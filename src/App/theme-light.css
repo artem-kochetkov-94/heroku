@@ -1,0 +1,35 @@
+.theme-light.app-wrapper {
+  background: #eee;
+  color: #000;
+}
+
+.theme-light .wallet-address,
+.theme-light .wallet-address.ant-btn,
+.theme-light .header-btn,
+.theme-light .ant-card-body span,
+.theme-light .ant-checkbox-wrapper span,
+.theme-light .vault-filters-nav-title,
+.theme-light .ant-input,
+.theme-light .ant-input-number,
+.theme-light .main-page-tabs .ant-tabs-tab-btn,
+.theme-light .tetu-ui-Alert__message,
+.theme-light .vaults-table .ant-table-thead > tr > th,
+.theme-light .vaults-table .link-wrapper,
+.theme-light .vaults-table .ant-table-tbody > tr > td,
+.theme-light .vault-row-title-platform,
+.theme-light .filter-form-label,
+.theme-light .vault-title .name,
+.theme-light .vault-title .platform,
+.theme-light .vault-page .ant-tabs-tab .ant-tabs-tab-btn,
+.theme-light .ant-tabs-tab a,
+.theme-light .promo-layout .text,
+.theme-light .vault-page .ant-typography,
+.theme-light .vault-info .ant-table-cell,
+.theme-light .vault-info a,
+.theme-light,
+.theme-light,
+.theme-light,
+.theme-light,
+.theme-light {
+  color: #000 !important;
+}

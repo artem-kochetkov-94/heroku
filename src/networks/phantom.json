@@ -1,0 +1,13 @@
+{
+  "name": "fantom",
+  "networkId": "0xfa",
+  "serverParam": "FANTOM",
+  "etherscan": "",
+  "fundkeeper": "0x81367059892aa1D8503a79a0Af9254DD0a09afBF",
+  "controller": "0x22e2625F9d8c28CB4BcE944E9d64efb4388ea991",
+  "Utils": "0x0B62ad43837A69Ad60289EEea7C6e907e759F6E8",
+  "ContractReader": "0xa4EB2E1284D9E30fb656Fe6b34c1680Ef5d4cBFC",
+  "TetuToken": "0x65c9d9d080714cDa7b5d58989Dc27f897F165179",
+  "PS": "0xf239F89992688cE2539cf637614Cc3f8866Ea433",
+  "zapContract": "0x24f0Ba229a7E7B1A89AbDf0B4824A7cdaAdd6a1c"
+}

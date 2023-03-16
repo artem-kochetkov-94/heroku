@@ -1,0 +1,9 @@
+.slippage-wrapper {
+  margin-top: 24px;
+}
+
+@media (max-width: 575px) {
+  .slippage-wrapper {
+    margin-top: 20px;
+  }
+}

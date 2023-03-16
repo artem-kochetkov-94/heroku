@@ -1,0 +1,284 @@
+.transactions-modal,
+.ant-modal-header,
+.ant-modal-header .ant-modal-title,
+.ant-modal-body {
+  color: #fff !important;
+  background: #222d40 !important;
+}
+
+.ant-modal-header {
+  padding: 24px 32px 6px;
+  border-bottom: 1px solid #192b55;
+}
+
+@media (max-width: 479px) {
+  .ant-modal-header {
+    padding: 30px 16px 6px 16px;
+  }
+}
+
+.ant-modal-content {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: transparent !important;
+}
+
+.ant-modal-close {
+  top: 7px;
+  right: 7px;
+}
+
+@media (max-width: 479px) {
+  .ant-modal-close {
+    top: 12px;
+    right: 0;
+  }
+}
+
+.ant-modal-close-x {
+  font-size: 16px;
+}
+
+.ant-modal-close-x svg {
+  fill: #7f8fa4;
+}
+
+.ant-modal-header .ant-modal-title {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.transactions-modal {
+  padding-top: 12px;
+}
+
+.transactions-modal-content {
+  padding: 24px 22px 20px 32px;
+  background: #1e2839;
+}
+
+@media (max-width: 479px) {
+  .transactions-modal-content {
+    padding: 24px 8px 20px 16px;
+  }
+}
+
+.transactions-modal-content-header {
+  margin-bottom: 30px;
+}
+
+.transactions-modal-title {
+  margin-bottom: 0;
+  padding: 12px 24px 20px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  background: #1e2839;
+  color: #7f8fa4;
+}
+
+.transactions-modal .transaction-header {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.transactions-modal .transaction-item {
+  margin-bottom: 30px;
+}
+
+.transaction-item .ant-col {
+  display: flex;
+  align-items: center;
+}
+
+.transaction-item-name {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+
+  color: #7f8fa4;
+}
+
+.transaction-item-date {
+  /* margin-left: 28px; */
+
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #7f8fa4;
+}
+
+.transaction-item-status {
+  /* margin-left: 28px; */
+}
+
+.transaction-item-delete {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  /* margin-left: 25px; */
+}
+
+.transaction-item-delete::before,
+.transaction-item-delete::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 2px;
+  border-radius: 2px;
+  background: #7f8fa4;
+}
+
+.transaction-item-delete::before {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.transaction-item-delete::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* .transactions-modal .transaction-footer {
+  padding-top: 20px;
+} */
+
+.account-modal {
+  padding: 0 21px 0 32px;
+}
+
+@media (max-width: 479px) {
+  .account-modal {
+    padding: 0 2px 0 16px;
+  }
+}
+
+.account-modal .user-address {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.account-modal .icon-link,
+.transactions-modal .icon-link {
+  margin-right: 8px;
+}
+
+.transactions-modal .transaction-title {
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.trasactions-clear-all {
+  padding: 0 8px;
+
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  border: none;
+
+  background-color: transparent;
+  color: #04a8f0;
+
+  cursor: pointer;
+}
+
+.ant-modal-account-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4px 16px 4px 12px;
+
+  height: 32px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+
+  border: 1.5px solid #7f8fa4;
+  border-radius: 8px;
+
+  background: #1e2839;
+}
+
+.ant-modal-account-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.ant-modal-account-button svg {
+  font-size: 18px;
+  color: #7f8fa4;
+}
+
+.ant-modal-account-link svg {
+  font-size: 23px;
+  transform: rotate(45deg);
+}
+
+.ant-modal-account-copy svg {
+  font-size: 22px;
+}
+
+.ant-modal-account-copied svg {
+  font-size: 15px;
+  color: #04a8f0;
+}
+
+.ant-modal-account-exit img {
+  width: 24px;
+  height: auto;
+}
+
+@media (max-width: 479px) {
+  .transaction-modal-wrapper {
+    position: fixed;
+    top: auto !important;
+    bottom: 0;
+    left: 0;
+    width: 100% !important;
+    max-width: 100%;
+    max-height: calc(100vh - 150px);
+    margin: 0;
+  }
+
+  .transaction-modal-wrapper .ant-modal-content {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.transaction-modal-wrapper .ant-modal-body {
+  padding-top: 17px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}

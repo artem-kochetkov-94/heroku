@@ -1,0 +1,81 @@
+.tetuBal__page
+  .ant-tabs-centered
+  > .ant-tabs-nav
+  .ant-tabs-nav-wrap:not([class*='ant-tabs-nav-wrap-ping']),
+.ant-tabs-centered > div > .ant-tabs-nav .ant-tabs-nav-wrap:not([class*='ant-tabs-nav-wrap-ping']) {
+  justify-content: flex-end;
+}
+
+.tetuBal__page .ant-tabs-nav {
+  margin-bottom: 26px;
+}
+
+@media (max-width: 575px) {
+  .tetuBal__page .ant-tabs-nav {
+    margin-bottom: 22px;
+  }
+}
+
+.tetuBal__page .ant-tabs-tab {
+  padding: 0;
+  background: transparent !important;
+}
+
+.tetuBal__page .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 0 0 24px;
+  padding: 0;
+  background: transparent !important;
+}
+
+.tetuBal__page .ant-tabs-bottom > .ant-tabs-nav:before,
+.ant-tabs-bottom > div > .ant-tabs-nav:before,
+.ant-tabs-top > .ant-tabs-nav:before,
+.ant-tabs-top > div > .ant-tabs-nav:before {
+  border-bottom: none;
+}
+
+.tetuBal__page .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.tetuBal__page .ant-tabs-tab .ant-tabs-tab-btn {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .tetuBal__page .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+  .tetuBal__page .ant-tabs-tab .ant-tabs-tab-btn {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.tetuBal__page .ant-tabs-tab .ant-tabs-tab-btn,
+.tetuBal__page .ant-tabs-tab .ant-tabs-tab-btn a {
+  color: #7c8ca5;
+}
+
+.tetuBal__page .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.tetuBal__page .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn a {
+  color: #fff;
+}
+
+.tetuBal__page .ant-tabs-bottom > .ant-tabs-nav .ant-tabs-ink-bar,
+.tetuBal__page .ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-ink-bar,
+.tetuBal__page .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+.tetuBal__page .ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  height: 1px;
+  background: #0d99ff;
+  background: linear-gradient(270deg, #04a8f0 11.54%, #686df1 84.62%);
+  background: linear-gradient(
+    270deg,
+    transparent,
+    transparent 8px,
+    #04a8f0 8px,
+    #04a8f0 11.54%,
+    #686df1 84.62%,
+    transparent 84.62%
+  );
+}

@@ -1,0 +1,116 @@
+@media (max-width: 479px) {
+  .switch-network-modal {
+    position: fixed;
+    top: auto !important;
+    bottom: 0;
+    left: 0;
+    width: 100% !important;
+    max-width: 100%;
+    max-height: calc(100vh - 150px);
+    margin: 0;
+  }
+
+  .switch-network-modal .ant-modal-content {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.switch-network-modal {
+}
+
+.switch-network-modal .ant-modal-body {
+  padding-top: 24px !important;
+  padding-bottom: 36px !important;
+}
+
+@media (max-width: 479px) {
+  .switch-network-modal .ant-modal-body {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+.switch-network-title {
+  margin-bottom: 8px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+@media (max-width: 479px) {
+  .switch-network-title {
+    max-width: 380px;
+  }
+}
+
+.switch-network-description {
+  margin-bottom: 24px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #7f8fa4;
+}
+
+.switch-network-select-title {
+  margin-bottom: 24px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.switch-network-select-item {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  background-color: transparent;
+  color: #fff;
+
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 479px) {
+  .switch-network-select-item {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.switch-network-select-item img {
+  border-radius: 4px;
+}
+
+.switch-network-select-item:hover {
+  background: #1f559b;
+}
+
+.switch-network-disconnect-wallet {
+  color: #04a8f0;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #04a8f0;
+  border-radius: 14px;
+  padding: 10px 20px;
+  background: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.switch-network-disconnect-wallet:hover {
+  box-shadow: inset 0px 0px 8px rgb(255 255 255 / 25%);
+  color: #fff;
+}

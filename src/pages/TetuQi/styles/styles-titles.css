@@ -1,0 +1,123 @@
+.tetuQi__title {
+  margin-bottom: 40px !important;
+
+  font-family: 'Source Sans Pro' !important;
+  font-weight: 600 !important;
+  font-size: 32px !important;
+  line-height: 44px !important;
+  text-align: center;
+
+  color: #ffffff !important;
+}
+
+@media (max-width: 1199px) {
+  .tetuQi__title {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .tetuQi__title {
+    font-size: 28px !important;
+  }
+}
+
+.tetuQi__sub-title {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 64px;
+
+  margin-bottom: 42px;
+  padding: 12px 32px 0;
+
+  text-align: center;
+
+  border-radius: 8px;
+
+  background: linear-gradient(180deg, #2b2e48 0%, #282046 100%);
+}
+
+@media (max-width: 1199px) {
+  .tetuQi__sub-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tetuQi__sub-title {
+    padding: 21px 20px 10px;
+  }
+}
+
+.tetuQi__sub-title img {
+  vertical-align: middle;
+
+  height: 23px;
+
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.tetuQi__sub-title .tetu-ui-Icon img {
+  margin: 0;
+}
+
+.tetuQi__sub-title h4 {
+  margin-bottom: 0;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+
+  color: #ffffff !important;
+}
+
+.tetuQi__sub-title-separator {
+  width: 12px;
+  height: 2px;
+
+  margin-left: 21px;
+  margin-right: 21px;
+
+  border-radius: 2px;
+
+  background-color: #fff;
+}
+
+.tetuQi__sub-title-item-wrapper {
+}
+
+/* @media screen and (min-width: 1300px) {
+  .tetuQi__sub-title-item-wrapper {
+    flex: 0 0 auto;
+    max-width: 100%;
+  }
+} */
+
+.tetuQi__sub-title-item,
+.tetuQi__sub-title-separator {
+  margin-bottom: 12px;
+}
+
+.tetuQi__sub-title-separator {
+  /* display: none; */
+}
+
+/* @media screen and (min-width: 1300px) {
+  .tetuQi__sub-title-separator {
+    display: inline-block;
+  }
+} */
+
+.tetuQi__sub-title-item:last-child {
+  margin-right: 0px;
+}
+
+.tetuQi__sub-title-item:last-child:before {
+  display: none;
+}

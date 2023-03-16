@@ -1,0 +1,587 @@
+.vault-page .link-hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.vault-page .link-hover:hover {
+  text-decoration: none;
+}
+
+.vault-page .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.vault-page {
+  padding-top: 26px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 575px) {
+  .vault-page {
+    padding-top: 20px;
+  }
+}
+
+.vault-page .tabs-wrapper {
+  /* max-width: 1110px; */
+  margin: 0 auto;
+  margin-left: 0;
+  overflow: hidden;
+}
+
+.vault-page .wrapper {
+  transition: filter 0.6s;
+}
+
+.vault-page .rewards-col.rewards-col-btn {
+  /* width: 100%; */
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.vault-page .rewards-col.rewards-col-btn button {
+  width: auto;
+}
+
+.vault-page .rewards-row {
+  width: 100%;
+}
+
+.btn-claim {
+  width: 167px;
+  /* margin-top: 15px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+@media (max-width: 991px) {
+  .vault-page .wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* .vault-page .card-1 {
+    margin-bottom: 30px;
+  } */
+
+  .vault-page .rewards-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .vault-page .rewards-col .btn-claim {
+    position: static;
+    transform: translateX(0);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.vault-page .hidden-input {
+  opacity: 0;
+  position: absolute;
+  z-index: -999999;
+}
+
+@media (max-width: 380px) {
+  .vault-page .card-1 {
+    margin-bottom: 20px;
+  }
+
+  /* .vault-page .btn-deposit,
+  .vault-page .btn-approve {
+    width: 100%;
+    margin-bottom: 28px;
+  } */
+
+  .vault-page .btn-claim {
+    width: 100%;
+  }
+
+  .vault-page .btn-withdraw,
+  .vault-page .btn-withdraw-and-claim {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.vault-page .tabs-content .ant-tabs-nav {
+  display: none;
+}
+
+.vault-page .ant-tabs-tab {
+  background-color: transparent;
+}
+
+.vault-page .ant-tabs-bottom > .ant-tabs-nav:before,
+.vault-page .ant-tabs-bottom > div > .ant-tabs-nav:before,
+.vault-page .ant-tabs-top > .ant-tabs-nav:before,
+.vault-page .ant-tabs-top > div > .ant-tabs-nav:before {
+  border-color: transparent;
+}
+
+.vault-page .ant-tabs-tab-btn {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* .vault-page .ant-tabs-tab-active .ant-tabs-tab-btn,
+.ant-tabs-tab:hover {
+  color: rgb(3, 74, 177) !important;
+} */
+
+.vault-page .ant-tabs-tab {
+  padding: 1px 0;
+}
+
+.vault-page .ant-tabs-tab + .ant-tabs-tab {
+  margin-left: 24px;
+}
+
+.vault-page {
+}
+
+.vault-page .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active,
+.vault-page .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active,
+.vault-page .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.vault-page .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.vault-page .ant-tabs-card.ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+  padding: 0;
+  padding-bottom: 2px;
+  /* margin-right: 30px; */
+}
+
+.vault-page .ant-tabs {
+  color: #fff;
+}
+
+.vault-page .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff;
+}
+
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+  border-bottom: 1px solid #0d99ff !important;
+}
+
+.vault-page .ant-typography {
+  color: #fff;
+}
+
+.vault-page .ant-btn {
+  width: 100%;
+  /*padding: 14px 30px;*/
+  /* font-size: 16px !important; */
+}
+
+.vault-page .input-label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* display: inline-block; */
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #7f8fa4;
+}
+
+.vault-page .input-label .anticon {
+  margin-bottom: 8px;
+}
+
+.vault-page .input-label .label-max {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #04a8f0;
+
+  cursor: pointer;
+}
+
+.vault-page .label-max-disabled {
+  color: #354052 !important;
+}
+
+.vault-info.app-paper {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+  .vault-info.app-paper {
+    padding: 16px 20px;
+  }
+}
+
+.vault-info .ant-table-thead {
+  display: none;
+}
+
+.vault-info.show-header .ant-table-thead {
+  display: table-row-group;
+  margin-bottom: 40px;
+}
+
+.ant-table-thead > tr > th {
+  border-bottom: 1px solid #ffffff54;
+}
+
+.vault-info.show-header .ant-table-thead > tr > th {
+  padding-top: 0;
+  padding-bottom: 20px;
+  padding-left: 0;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  text-transform: uppercase;
+
+  border-bottom: none;
+
+  background-color: transparent;
+  color: #7c8ca5;
+}
+
+/* .ant-table-thead>tr>th*/
+
+.vault-info .ant-table {
+  background-color: transparent;
+}
+
+.vault-info .ant-table-cell {
+  color: #fff;
+}
+
+.vault-info .ant-table-tbody > tr {
+  height: 48px;
+}
+
+@media (max-width: 767px) {
+  .vault-info .ant-table-tbody > tr {
+    height: auto;
+  }
+}
+
+.vault-info .ant-table-tbody > tr > td {
+  border: none;
+  padding-left: 0;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .vault-info .ant-table-tbody > tr > td,
+  .vault-info .ant-table-tbody > tr > td .amount-component {
+    font-size: 13px !important;
+    line-height: 20px;
+  }
+}
+
+.vault-info .ant-table-tbody > tr > td:first-child {
+  color: #c4c4df;
+}
+
+.vault-info .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: transparent !important;
+}
+
+.vault-info a {
+  color: #fff;
+}
+
+.vault-info a:hover {
+  color: #1890ff;
+  text-decoration: underline;
+}
+
+.vault-info .status {
+  display: inline-block;
+  padding: 6px 20px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.vault-info-main {
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .vault-info-main {
+    margin-bottom: 12px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .vault-info-main table,
+  .vault-info-main tr,
+  .vault-info-main td {
+    display: block;
+  }
+
+  .vault-info-main tbody {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .vault-info-main tr {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .vault-info-vault tr:first-child {
+    width: 100%;
+  }
+
+  .vault-info-rewards tr:first-child {
+    display: flex;
+    align-items: center;
+  }
+
+  .vault-info-rewards tr:first-child td {
+    width: auto !important;
+  }
+
+  .vault-info-rewards tr:first-child td:first-child {
+    margin-right: 12px;
+  }
+
+  .vault-info-rewards tr:first-child,
+  .vault-info-rewards tr:nth-child(2),
+  .vault-info-rewards tr:nth-child(3) {
+    width: 100% !important;
+  }
+
+  .vault-info-rewards .amount-component div {
+    font-size: 13px !important;
+  }
+
+  .vault-info-strategy tr {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .vault-info-rewards tr:nth-child(4) {
+    width: 100%;
+  }
+}
+
+.vault-info-main .ant-table-tbody > tr > td {
+  vertical-align: top;
+}
+
+.vault-info-main .ant-table-tbody > tr > td:first-child {
+  width: 250px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  text-transform: uppercase;
+
+  color: #7f8fa4;
+}
+
+@media (max-width: 767px) {
+  .vault-info-main .ant-table-tbody > tr > td:first-child {
+    font-size: 12px !important;
+    line-height: 16px;
+  }
+}
+
+.vault-info-main .ant-table-tbody > tr {
+  height: 36px;
+}
+
+@media (max-width: 767px) {
+  .vault-info-main .ant-table-tbody > tr {
+    height: auto;
+  }
+}
+
+.vault-info-main-title {
+  margin-bottom: 25px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .vault-info-main-title {
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.vault-info-main-link {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 14px 32px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+
+  border-radius: 8px;
+
+  box-shadow: 0px 20px 20px rgba(21, 21, 21, 0.2);
+
+  background: #222d40;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .vault-info-main-link {
+    display: block;
+  }
+}
+
+.vault-info-main-status {
+  position: absolute;
+
+  top: 24px;
+  right: 32px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: 'Source Sans Pro';
+}
+
+@media (max-width: 767px) {
+  .vault-info-main-status {
+    top: 16px;
+    right: 20px;
+  }
+}
+
+.vault-info-main-status-text {
+  margin-right: 20px;
+
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #7f8fa4;
+}
+
+.vault-info-main-status-button {
+  padding: 3px 8px;
+
+  font-size: 12px;
+  line-height: 14px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 100px;
+
+  background: #465067;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .vault-info-main-status-button {
+    padding: 3px 8px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.vault-info-main-status-button-disabled {
+  background-color: #7f8fa4;
+}
+
+.vault-info-main-status-button-pause {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #f7981c;
+}
+
+.input-with-amount {
+  position: relative;
+}
+
+.input-with-amount .ant-input {
+  margin-bottom: 0;
+  padding: 16px;
+  padding-right: 70px;
+}
+
+@media (max-width: 575px) {
+  .input-with-amount .ant-input {
+    padding: 14px 8px;
+  }
+}
+
+.input-with-amount-value {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #7f8fa4;
+}
+
+@media (max-width: 767px) {
+  .vault-info-sidebar {
+    width: 100%;
+  }
+
+  .vault-info-sidebar .vault-info-main-link .ant-row .ant-col:first-child {
+    flex-grow: 1;
+  }
+}

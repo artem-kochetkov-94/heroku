@@ -1,0 +1,121 @@
+.zap-wrapper {
+  padding-top: 32px;
+  padding-bottom: 2px;
+}
+
+.zap-wrapper .label {
+  margin-bottom: 4px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #7f8fa4;
+}
+
+.zap-wrapper .select-token {
+  width: 100%;
+}
+
+.select-token-for-zapping-v2 .ant-select-selector {
+  padding: 2px 3px !important;
+}
+.select-token-for-zapping-v2 .ant-select-selection-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  line-height: 20px !important;
+}
+
+.ant-select-item-option-content .token-logo,
+.select-token-for-zapping-v2 .token-logo {
+  width: 32px;
+  height: 32px;
+  margin-top: 1px;
+  margin-right: 6px;
+}
+.select-token-for-zapping-v2 .token-caption {
+  padding-top: 3px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.select-token-for-zapping-v2 {
+  width: 144px !important;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px;
+
+  border-radius: 4px !important;
+
+  background: #323d4f !important;
+  color: #ffffff !important;
+}
+
+.select-token-for-zapping-v2 .ant-select-selector {
+  background: #323d4f !important;
+}
+
+.zap-wrapper .input-slippage {
+  width: 100%;
+  padding: 8px 20px;
+}
+
+.zap-wrapper .ant-select-selector {
+  position: relative;
+}
+
+.zap-v2-select-wrapper {
+  /*margin-top: 32px;*/
+}
+
+@media (max-width: 575px) {
+  .zap-v2-select-wrapper {
+    margin-top: 10px;
+  }
+}
+
+.zap-v2-select-wrapper .label {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #7f8fa4;
+}
+
+@media (max-width: 575px) {
+  .zap-v2-select-wrapper .label {
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+}
+
+.zap-v2-select-wrapper .zap-wrapper {
+  padding-top: 0;
+}
+
+.zap-v2-select-wrapper .select-token-for-zapping-v2 {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  z-index: 1;
+}
+
+.zap-v2-select-wrapper .zap-select-wrapper-input {
+  height: 56px;
+  text-align: right;
+}

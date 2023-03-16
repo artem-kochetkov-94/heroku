@@ -1,0 +1,82 @@
+.tetuMesh__info-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  border-radius: 8px;
+
+  background: linear-gradient(to bottom, #465067 0%, #1b283e 100%);
+
+  overflow: hidden;
+}
+
+.tetuMesh__info-inner {
+  margin: 1px;
+
+  border-radius: 8px;
+
+  background: #1e2839;
+
+  overflow: hidden;
+}
+
+.tetuMesh__info-header {
+  padding: 12px;
+
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.tetuMesh__info-content {
+  padding: 10px 32px 20px;
+
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+  background: #1e2839;
+}
+
+.tetuMesh__info-content img {
+  height: 24px;
+
+  margin-right: 4px;
+}
+
+.tetuMesh__info-content-title {
+  margin-bottom: 25px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.tetuMesh__content-item {
+  display: block;
+
+  width: 100%;
+
+  padding-bottom: 13px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  border-bottom: 1px solid #323e50;
+
+  color: #ffffff;
+}
+
+.tetuMesh__content-item a {
+  color: #fff;
+}
+
+.tetuMesh__content-item span {
+  color: #7f8fa4;
+}

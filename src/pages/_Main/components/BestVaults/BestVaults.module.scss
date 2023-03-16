@@ -1,0 +1,196 @@
+.wrapper {
+  margin-bottom: 32px;
+  padding-top: 40px;
+}
+
+@media (max-width: 850px) {
+  .wrapper {
+    margin-bottom: 0px;
+    padding-top: 12px;
+  }
+}
+
+.title {
+  margin-bottom: 0;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #fff;
+}
+
+@media (max-width: 850px) {
+  .title {
+    font-size: 22px;
+  }
+}
+
+.control {
+  position: relative;
+
+  width: 24px;
+  height: 24px;
+
+  border: 1px solid #313d4f;
+  border-radius: 50%;
+  background-color: #273142;
+
+  cursor: pointer;
+
+  &::after {
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    width: 6px;
+    height: 6px;
+
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  &:hover {
+    background-color: #313d4f;
+  }
+
+  &.controlDisabled {
+    background-color: #222c3c;
+
+    &::after {
+      border-color: #354052;
+    }
+  }
+}
+
+.controlLeft {
+  &::after {
+    transform: translate(-50%, -50%) translateX(2px) rotate(135deg);
+  }
+}
+
+.controlRight {
+  &::after {
+    transform: translate(-50%, -50%) translateX(-1px) rotate(-45deg);
+  }
+}
+
+div[class^='Carousel__RailWrapper'] {
+  margin: 0;
+}
+
+div[class^='Carousel__RailWrapper'] > div {
+  padding-left: 0 !important;
+}
+
+div[class^='Carousel__Item'] {
+  overflow: hidden;
+  display: flex;
+}
+
+@media (max-width: 575px) {
+  div[class^='Carousel__Item'] {
+    overflow: hidden;
+    display: grid;
+  }
+}
+
+div[class^='Carousel__Item-']:nth-child(1) {
+  width: 50%;
+}
+
+@media (max-width: 575px) {
+  div[class^='Carousel__Item-']:nth-child(1) {
+    width: 100%;
+  }
+}
+
+div[class^='Carousel__Item-']:nth-child(2) {
+  width: 50%;
+}
+
+@media (max-width: 575px) {
+  div[class^='Carousel__Item-']:nth-child(2) {
+    width: 100%;
+  }
+}
+
+div[class^='Carousel__Item-']:nth-child(3) {
+  width: 50%;
+}
+
+@media (max-width: 575px) {
+  div[class^='Carousel__Item-']:nth-child(3) {
+    width: 100%;
+  }
+}
+
+div[class^='ArrowButton__ButtonWrapper'] {
+  display: block !important;
+}
+
+div[class^='ArrowButton__ButtonWrapper'][hidden] {
+  display: block !important;
+  pointer-events: none;
+}
+
+div[class^='ArrowButton__ButtonWrapper'][hidden] span {
+  background-color: #222c3c;
+
+  &::before {
+    border-color: #354052;
+  }
+}
+
+.wrapper div[class^='ArrowButton__ButtonWrapper'] span {
+  top: -59px;
+  left: 190px;
+  right: auto;
+
+  width: 24px;
+  height: 24px;
+  border: 1px solid #313d4f;
+  border-radius: 50%;
+  background-color: #273142;
+  box-shadow: none;
+
+  &:hover {
+    background-color: #313d4f;
+  }
+}
+
+@media (max-width: 850px) {
+  .wrapper div[class^='ArrowButton__ButtonWrapper'] span {
+    left: 181px;
+  }
+}
+
+@media (max-width: 575px) {
+  @media (max-width: 850px) {
+    .wrapper div[class^='ArrowButton__ButtonWrapper'] span {
+      top: -47px;
+    }
+  }
+}
+
+div[class^='ArrowButton__ButtonWrapper'] span::before {
+  width: 6px;
+  height: 6px;
+  border-width: 1.5px;
+  border-color: #fff;
+}
+
+.wrapper div[class^='ArrowButton__ButtonWrapper'] span[type='next'] {
+  left: 235px;
+}
+
+@media (max-width: 850px) {
+  .wrapper div[class^='ArrowButton__ButtonWrapper'] span[type='next'] {
+    left: 226px;
+  }
+}

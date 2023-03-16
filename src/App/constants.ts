@@ -1,0 +1,15 @@
+export const resourcesLinks = {
+  github: 'https://github.com/tetu-io',
+  gitbook: 'https://docs.tetu.io/tetu-io/',
+  discord: 'https://discord.gg/xs8VESN4yz',
+  twitter: 'https://twitter.com/tetu_io',
+  telegram: 'https://t.me/tetu_io',
+  faq: 'https://docs.tetu.io/tetu-faq/',
+  about: 'https://docs.tetu.io/tetu-io/about',
+  team: 'https://docs.tetu.io/tetu-io/security/multi-sig',
+  tasks: 'https://tasks.tetu.io/youtrack',
+  forum: 'https://forum.tetu.io',
+  swap: 'https://swap.tetu.io',
+  medium: 'https://medium.com/@tetu.finance',
+  tetuV2: 'https://v2.tetu.io/',
+}

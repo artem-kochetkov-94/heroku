@@ -1,0 +1,38 @@
+.user-stat-title {
+  margin-bottom: 24px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.user-stat-item-title {
+  margin-bottom: 0;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: #7c8ca5;
+}
+
+.user-stat-item-value {
+  margin-bottom: 0;
+  padding-top: 1px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

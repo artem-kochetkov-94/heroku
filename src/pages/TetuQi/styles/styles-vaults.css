@@ -1,0 +1,193 @@
+.tetuQi__vault-wprapper .vault-row-wrapper {
+  display: flex !important;
+}
+
+.tetuQi__vault {
+  height: 100%;
+
+  margin: 1px;
+
+  background: linear-gradient(180deg, #2b2e48 0%, #282046 100%) !important;
+}
+
+.tetuQi__vault-item {
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #465067 0%, #1b283e 100%) !important;
+  overflow: hidden;
+}
+
+@media (max-width: 1199px) {
+  .tetuQi__vault-item {
+    height: 100%;
+  }
+}
+
+.tetuQi__column {
+}
+
+@media screen and (max-width: 440px) {
+  .tetuQi__column {
+  }
+}
+
+.tetuQi__vault {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 8px;
+
+  background: #222d40;
+  color: #fff;
+
+  overflow: hidden;
+
+  cursor: pointer;
+}
+
+.tetuQi__vault-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px 32px 24px;
+  background-color: #222d40;
+}
+
+@media (max-width: 767px) {
+  .tetuQi__vault-content {
+    padding: 17px 20px;
+  }
+}
+
+.tetuQi__vault-content-table {
+  margin-bottom: 25px;
+}
+
+.tetuQi__vault-content-table-row {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  .tetuQi__vault-content-table-row {
+    margin-bottom: 17px;
+  }
+}
+
+.tetuQi__vault .icon-group {
+  width: auto;
+  min-width: auto;
+  flex-basis: auto;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 767px) {
+  .tetuQi__vault .icon-group {
+    margin-bottom: 8px;
+  }
+}
+
+.tetuQi__vault-name {
+  padding: 25px 32px 15px;
+  background: #1e2839;
+}
+
+@media (max-width: 767px) {
+  .tetuQi__vault-name {
+    padding: 20px;
+  }
+}
+
+.tetuQi__vault-name .vault-row-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  /* text-align: center; */
+}
+
+.tetuQi__vault-name .vault-row-title {
+  padding-left: 0;
+}
+
+.tetuQi__vault-name .icon-group .icon {
+  height: 23px;
+  width: 23px;
+  margin-right: 10px;
+  border-radius: 84px;
+}
+
+.tetuQi__vault-name .icon-group .icon:last-child {
+  margin-right: 0;
+}
+
+.tetuQi__vault-name .vault-row-title-name {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+  .tetuQi__vault-name .vault-row-title-name {
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.tetuQi__vault-name .vault-row-title-platform {
+  margin-bottom: -4px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #7f8fa4;
+}
+
+.tetuQi__vault .link-wrapper {
+  color: #fff;
+}
+
+.tetuQi__vault-apy .ant-row.ant-row-middle {
+  padding-left: 0 !important;
+}
+
+.tetuQi__vault-rewards .ant-col.ant-col-12 div {
+  padding: 0 !important;
+}
+
+.tetuQi__btn {
+  width: 100%;
+  font-weight: normal !important;
+}
+
+.tetuQi__label {
+  font-family: 'Source Sans Pro';
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #7f8fa4;
+}
+
+.tetuQi__tar {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tetuQi__divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(196, 196, 223, 0.5);
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.rewards-icons-list .rewards-icons-list-item:last-child {
+  margin-right: 0;
+}

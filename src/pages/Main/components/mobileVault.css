@@ -1,0 +1,60 @@
+.mobile-vault {
+  margin-bottom: 12px;
+  padding: 1px;
+
+  border-radius: 8px;
+
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+
+  background: linear-gradient(to bottom, #465067 0%, #1b283e 100%) !important;
+  background-clip: content-box;
+}
+
+.mobile-vault-inner {
+  min-height: 128px;
+
+  padding: 18px 22px;
+
+  border-radius: 8px;
+
+  background: linear-gradient(180deg, #293345 0%, #1c2533 107.5%) !important;
+}
+
+@media (max-width: 575px) {
+  .mobile-vault-inner {
+    padding: 12px;
+  }
+}
+
+.mobile-vault.tetu-row .mobile-vault-inner {
+  background: linear-gradient(180deg, #2b2e48 0%, #282046 100%) !important;
+}
+
+.mobile-vault:last-child {
+  margin-bottom: 0;
+}
+
+.mobile-vault .icon-group {
+  width: 73px;
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .mobile-vault .icon-group {
+    width: 48px;
+  }
+  .mobile-vault .icon-group .icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.mobile-vault-content-column {
+  padding-left: 84px;
+}
+
+@media (max-width: 575px) {
+  .mobile-vault-content-column {
+    padding-left: 60px;
+  }
+}

@@ -1,0 +1,9 @@
+.tetuMesh__page {
+  padding-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .tetuMesh__page {
+    padding-top: 15px;
+  }
+}

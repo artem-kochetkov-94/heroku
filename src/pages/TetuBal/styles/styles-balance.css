@@ -1,0 +1,56 @@
+.tetuBal__balance-item {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 480px) {
+  .tetuBal__balance-item {
+    width: 100%;
+  }
+}
+
+.tetuBal__balance-item--mobile-center {
+}
+
+@media (max-width: 1199px) {
+  .tetuBal__balance-item--mobile-center {
+    text-align: center;
+  }
+}
+
+.tetuBal__balance-item img {
+  margin-right: 4px;
+  margin-bottom: 3px;
+}
+
+.tetuBal__balance-text {
+  margin-right: 12px;
+  color: #c4c4df;
+}
+
+@media (max-width: 480px) {
+  .tetuBal__balance-text--mobile {
+    display: block;
+  }
+}
+
+.tetuBal__balance-value-1 {
+  flex-shrink: 0;
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+@media (max-width: 1199px) {
+  .tetuBal__balance-value-1 {
+    margin-left: auto;
+  }
+}
+
+.tetuBal__balance-value-2 {
+  padding-top: 4px;
+  flex-shrink: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #c4c4df;
+}

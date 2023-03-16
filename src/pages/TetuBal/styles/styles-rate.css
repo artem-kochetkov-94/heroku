@@ -1,0 +1,257 @@
+.tetuBal__rate-wrapper {
+  display: inline-flex;
+  align-items: center;
+
+  width: 100%;
+  height: 72px;
+
+  padding: 12px 24px;
+
+  border-radius: 8px;
+
+  background: #162030;
+}
+
+@media (max-width: 575px) {
+  .tetuBal__rate-wrapper {
+    flex-direction: column;
+    align-items: center;
+    height: 96px;
+    padding: 15px 24px;
+  }
+}
+
+@media (max-width: 479px) {
+  .tetuBal__rate-wrapper {
+    height: auto;
+  }
+}
+
+.tetuBal__rate-wrapper-content {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 479px) {
+  .tetuBal__rate-wrapper-content {
+    flex-direction: column;
+  }
+}
+
+.tetuBal__rate-title {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0;
+  margin-right: auto;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #7f8fa4;
+}
+
+@media (max-width: 575px) {
+  .tetuBal__rate-title {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.tetuBal__rate {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 1250px) {
+  .tetuBal__rate .ant-row {
+    justify-content: center;
+  }
+}
+
+.tetuBal__rate-left {
+  flex-grow: 0;
+}
+
+@media (max-width: 1250px) {
+  .tetuBal__rate-left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
+
+.tetuBal__rate-right {
+  margin-left: auto;
+}
+
+@media (max-width: 1250px) {
+  .tetuBal__rate-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.tetuBal__rate h4 {
+  color: #fff;
+}
+
+.tetuBal__rate img {
+  height: 24px;
+}
+
+.tetuBal__rate-label {
+  color: #fff !important;
+}
+
+.tetuBal__rate-block {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 12px 24px;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  background: linear-gradient(180deg, rgba(13, 153, 255, 0.15) 0%, rgba(13, 153, 255, 0.1) 100%);
+  border-radius: 8px;
+  color: #fff !important;
+}
+
+@media (max-width: 374px) {
+  .tetuBal__rate-block {
+    padding: 10px 20px;
+  }
+}
+
+.tetuBal__rate-block--border {
+  border: 1px solid #686df1;
+}
+
+.tetuBal__rate-block--button {
+  cursor: pointer;
+  transition: 0.3s;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  color: inherit;
+}
+
+.tetuBal__rate-block--button a {
+  color: inherit !important;
+}
+
+.tetuBal__rate-block--button img {
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+.tetuBal__rate-block--button:hover {
+  border-color: #2474f6;
+}
+
+.tetuBal__rate-middle {
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: 0 !important;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+
+  color: #ffffff !important;
+}
+
+@media (max-width: 479px) {
+  .tetuBal__rate-middle {
+    margin-top: 5px;
+    margin-bottom: 10px !important;
+  }
+}
+
+.tetuBal__rate-token {
+  display: flex;
+  align-items: center;
+}
+
+.tetuBal__rate-token img {
+  width: 23px;
+  margin-right: 5px;
+}
+
+.tetuBal__rate-token h4 {
+  margin: 0px !important;
+}
+
+.tetuBal__rate-token-label {
+  margin-right: 16px !important;
+  margin-bottom: 0;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+
+  color: #fff !important;
+}
+
+.tetuBal__rate-token-name {
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+
+  color: #7f8fa4 !important;
+}
+
+.tetuBal__rate-token-value {
+  margin-right: 16px;
+}
+
+.tetuBal__rate-token-value h4 {
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+
+  color: #ffffff !important;
+}
+
+.tetuBal__rate-equal {
+  margin: 0 22px;
+}
+
+@media (max-width: 374px) {
+  .tetuBal__rate-equal {
+    margin: 0 10px;
+  }
+}
+
+.tetuBal__rate-block-gray-text {
+  opacity: 0.7;
+}
+
+/* @media screen and (max-width: 990px) {
+  .tetuBal__rate-left,
+  .tetuBal__rate-right {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .tetuBal__rate-right {
+    padding-left: 60px;
+  }
+} */
+
+.ant-typography.tetuBal__rate-label {
+  margin-top: 0.5em;
+}

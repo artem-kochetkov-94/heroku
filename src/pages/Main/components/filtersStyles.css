@@ -1,0 +1,149 @@
+@media (max-width: 991px) {
+  .filters-desktop {
+    display: none;
+  }
+}
+
+.filters-mobile {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .filters-mobile {
+    display: block;
+  }
+}
+
+.filters-mobile-popup {
+  z-index: 10;
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  max-height: calc(100vh - 50px);
+
+  padding: 30px 16px 28px;
+
+  background: #222d40;
+  border-radius: 16px 16px 0px 0px;
+
+  overflow: auto;
+}
+
+.filters-mobile-popup-title {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 34px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.filters-mobile-popup-close {
+  position: absolute;
+
+  top: 22px;
+  right: 22px;
+
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+}
+
+.filters-mobile-popup-close::before,
+.filters-mobile-popup-close::after {
+  content: '';
+
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  display: inline-flex;
+
+  width: 14px;
+  height: 2px;
+
+  background: #7f8fa4;
+}
+
+.filters-mobile-popup-close::before {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.filters-mobile-popup-close::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.filters-mobile-filters .filters-mobile-popup-title {
+  margin-bottom: 23px;
+}
+
+.filters-mobile-sort {
+  position: fixed;
+}
+
+.filters-mobile-sort-list-item {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #323e50;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.sort-icon-ASC,
+.sort-icon-DESC {
+  position: absolute;
+
+  right: 3px;
+
+  width: 10px;
+  height: 10px;
+
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.sort-icon-ASC {
+  top: 7px;
+  border-top: 5px solid #ffffff;
+}
+
+.sort-icon-DESC {
+  top: 2px;
+  border-bottom: 5px solid #ffffff;
+}
+
+.filters-mobile-sort-button,
+.filters-mobile-filter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+}

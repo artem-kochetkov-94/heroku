@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./static/Noto_Sans/NotoSans-Regular.ttf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./static/Noto_Sans/NotoSans-Bold.ttf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./static/Noto_Sans/NotoSans-Medium.ttf') format('opentype');
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', */
+  /* 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Noto Sans' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #171f30;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.web3modal-modal-card {
+  max-width: 448px !important;
+}
+
+.web3modal-provider-wrapper:not(:last-child) {
+  padding-bottom: 0 !important;
+}
+
+.ant-popover-inner {
+  border-radius: 12px !important;
+}
+
+.ant-popover-inner-content {
+  padding: 12px !important;
+
+  max-width: 200px;
+
+  border-radius: 12px;
+
+  background: #eae8e1;
+}

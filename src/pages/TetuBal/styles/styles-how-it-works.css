@@ -1,0 +1,44 @@
+.tetuBal__how-it-works {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1199px) {
+  .tetuBal__how-it-works {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tetuBal__how-it-works {
+    margin-bottom: 42px;
+  }
+}
+
+.tetuBal__how-it-works img {
+  width: 100%;
+  max-width: 680px;
+}
+
+.tetuBal__how-it-works-title {
+  text-align: center;
+}
+
+.tetuBal__how-it-works-title .ant-typography {
+  margin-bottom: 12px;
+  color: #fff !important;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (max-width: 767px) {
+  .tetuBal__how-it-works-title .ant-typography {
+  }
+}
+
+.tetuBal__how-it-works-inner {
+  display: flex;
+  justify-content: center;
+}

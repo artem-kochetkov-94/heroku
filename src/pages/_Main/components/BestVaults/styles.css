@@ -1,0 +1,88 @@
+.bestVaultWrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 88px;
+
+  border: 1px solid #323e50;
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+.bestVaultWrapperHeader {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 56px;
+
+  padding: 0 20px;
+  padding-right: 50px;
+
+  background: #222d40;
+}
+
+.bestVaultWrapperHeader .network {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 20px;
+  padding: 4px 12px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  border-bottom-left-radius: 10px;
+
+  background: linear-gradient(100.44deg, #0b2863 16.02%, #084460 84.44%);
+  color: #ffffff;
+}
+
+.bestVaultWrapperHeader .icon-group {
+  margin-right: 12px;
+}
+
+.bestVaultWrapperHeader .icon-group .icon {
+  width: 40px;
+  height: 40px;
+}
+
+.bestVaultWrapperHeader .icon-group-2 .icon:nth-child(1) {
+  margin-right: -8px;
+}
+
+.bestVaultWrapperHeader .vault-row-title {
+  padding-left: 0;
+}
+
+.bestVaultWrapperContent {
+  flex-grow: 1;
+  padding: 0 20px;
+  background: #1e2839;
+}
+
+.bestVaultWrapperContentItemTitle {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+
+  color: #7f8fa4;
+}

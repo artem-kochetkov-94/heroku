@@ -1,0 +1,238 @@
+.vault-row-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.vault-row-wrapper.deactivated .icon-group {
+  filter: grayscale(100%);
+}
+
+.vault-row-wrapper.apr-detailed .icon-group:not(.icon-group-3) {
+  width: auto;
+  flex-basis: auto;
+}
+
+.icon-group {
+  position: relative;
+  display: flex;
+  margin-right: 12px;
+}
+
+.ant-modal-header .icon-group .icon {
+  width: 32px;
+  height: 32px;
+}
+
+.ant-modal-header .icon-group-2 .icon:nth-child(1) {
+  margin-right: -8px;
+}
+
+.icon-group .icon {
+  height: 44px;
+  width: 44px;
+  border-radius: 44px;
+}
+
+.icon-group.icon-group-1 {
+  justify-content: center;
+}
+
+.icon-group-2 .icon:nth-child(1) {
+  margin-right: -15px;
+}
+
+@media (max-width: 575px) {
+  .icon-group-2 .icon:nth-child(1) {
+    margin-right: -8px;
+  }
+}
+
+.icon-group.icon-group-2 .icon:nth-child(2) {
+  /* margin-left: -11px; */
+}
+
+.icon-group.icon-group-3 {
+  height: 44px;
+  flex-basis: 80px;
+  max-width: 80px;
+  min-width: 80px;
+}
+.icon-group.icon-group-3 .icon:nth-child(1) {
+  position: absolute;
+  top: -6px;
+  left: 6px;
+  width: 34px;
+  height: 34px;
+  margin-right: -10px;
+}
+
+.icon-group.icon-group-3 .icon:nth-child(2) {
+  position: absolute;
+  top: -6px;
+  left: 50px;
+  width: 34px;
+  height: 34px;
+  margin-left: -10px;
+}
+.icon-group.icon-group-3 .icon:nth-child(3) {
+  position: absolute;
+  top: 20px;
+  left: 32px;
+  width: 34px;
+  height: 34px;
+  margin-left: -10px;
+}
+
+.icon-group.icon-group-4 {
+  height: 44px;
+  height: 44px;
+  flex-basis: 80px;
+  max-width: 80px;
+  min-width: 80px;
+}
+
+.icon-group.icon-group-4 .icon:nth-child(1) {
+  position: absolute;
+  top: -6px;
+  left: 6px;
+  width: 34px;
+  height: 34px;
+  margin-right: -10px;
+}
+
+.icon-group.icon-group-4 .icon:nth-child(2) {
+  position: absolute;
+  top: -6px;
+  left: 50px;
+  width: 34px;
+  height: 34px;
+  margin-left: -10px;
+}
+.icon-group.icon-group-4 .icon:nth-child(3) {
+  position: absolute;
+  top: 20px;
+  left: 6px;
+  width: 34px;
+  height: 34px;
+  margin-right: -10px;
+}
+
+.icon-group.icon-group-4 .icon:nth-child(4) {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 34px;
+  height: 34px;
+  margin-left: -10px;
+}
+
+/* @media screen and (max-width: 720px) {
+  .icon-group.icon-group-3 {
+    height: 58px;
+    margin-top: 6px;
+  }
+
+  .icon-group.icon-group-4 {
+    height: 58px;
+    margin-top: 6px;
+  }
+} */
+
+.vault-row-title {
+  padding-left: 12px;
+}
+
+.vault-row-title-name {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.vault-row-title-platform {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #7f8fa4;
+}
+
+/* @media screen and (max-width: 880px) {
+  .vaults-table .link-wrapper {
+    padding: 0 !important;
+  }
+
+  .vault-row-title-name {
+    font-size: 18px;
+    line-height: 18px;
+  }
+} */
+
+@media screen and (max-width: 720px) {
+  /* .new-year-image {
+    display: none;
+  }
+
+  .vault-row-title-name {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .vault-row-title-platform {
+    font-size: 12px;
+  }
+
+  .icon-group .icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .icon-group {
+    width: 68px;
+    flex-basis: 68px;
+  }
+
+  .vault-row-title {
+    padding-left: 4px;
+  }
+
+  .icon-group.icon-group-2 .icon:nth-child(2) {
+    margin-left: 0;
+  }
+  .icon-group.icon-group-2 .icon:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .vaults-table .link-wrapper {
+    padding: 0px !important;
+  } */
+}
+
+@media screen and (max-width: 720px) {
+  /* .vaults-table .ant-table-row td {
+    min-height: 80px;
+  }
+
+  .vaults-table .vault-row-wrapper img {
+    margin-bottom: 2px;
+    margin-right: 2px;
+  }
+
+  .vaults-table .icon-group.icon-group-1 {
+    justify-content: flex-start;
+  }
+
+  .vaults-table .ant-table-row {
+    margin-bottom: 10px;
+  }
+
+  .vault-row-title-name {
+    font-size: 14px;
+    line-height: 16px;
+  } */
+}

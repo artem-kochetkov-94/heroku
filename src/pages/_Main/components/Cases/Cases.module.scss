@@ -1,0 +1,164 @@
+.wrapper {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 850px) {
+  .antRowOuter {
+    row-gap: 32px !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .antRow {
+    max-width: calc(384px * 2 + 32px);
+  }
+
+  .antCol {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 850px) {
+  .antRow {
+    row-gap: 24px !important;
+  }
+}
+
+@media (max-width: 730px) {
+  .antRow {
+    max-width: calc(384px * 1);
+  }
+
+  .antCol {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .antRow {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .antRowItems {
+    row-gap: 20px !important;
+  }
+}
+
+.title {
+  margin-bottom: 0;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #fff;
+}
+
+@media (max-width: 850px) {
+  .title {
+    font-size: 22px;
+  }
+}
+
+.post {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  height: 184px;
+
+  padding: 16px 32px;
+
+  border-radius: 8px;
+
+  background-position: center;
+  background-size: cover;
+  background-color: #000;
+
+  color: #fff;
+
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+
+  overflow: hidden;
+}
+
+@media (max-width: 850px) {
+  .post {
+    height: 160px;
+    padding: 16px 24px 16px;
+  }
+}
+
+.postImg {
+  position: absolute;
+
+  top: 50%;
+  right: 32px;
+
+  width: 120px;
+
+  transform: translateY(-50%);
+}
+
+@media (max-width: 850px) {
+  .postImg {
+    right: 24px;
+    width: 96px;
+  }
+}
+
+.postContent {
+  max-width: 250px;
+}
+
+.caseTitle {
+  margin-bottom: 8px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+@media (max-width: 850px) {
+  .caseTitle {
+    font-size: 18px;
+  }
+}
+
+.caseDescription {
+  max-width: 170px;
+
+  margin-bottom: 0;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ffffff;
+
+  opacity: 0.72;
+}
+
+@media (max-width: 850px) {
+  .caseDescription {
+    max-width: 160px;
+
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

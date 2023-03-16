@@ -1,0 +1,227 @@
+.tetuQi__rate-wrapper {
+  display: inline-flex;
+  align-items: center;
+
+  width: 100%;
+  height: 72px;
+
+  padding: 12px 24px;
+
+  border-radius: 8px;
+
+  background: #162030;
+}
+
+@media (max-width: 575px) {
+  .tetuQi__rate-wrapper {
+    flex-direction: column;
+    align-items: center;
+    height: 96px;
+    padding: 15px 24px;
+  }
+}
+
+.tetuQi__rate-wrapper-content {
+  display: flex;
+}
+
+.tetuQi__rate-title {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0;
+  margin-right: auto;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #7f8fa4;
+}
+
+@media (max-width: 575px) {
+  .tetuQi__rate-title {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.tetuQi__rate {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.tetuQi__rate h4 {
+  color: #fff;
+}
+
+.tetuQi__rate img {
+  height: 24px;
+}
+
+.tetuQi__rate-label {
+  display: flex;
+
+  margin-right: 40px;
+  margin-bottom: 0;
+
+  color: #fff !important;
+}
+
+.tetuQi__rate-middle {
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: 0 !important;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+
+  color: #ffffff !important;
+}
+
+.tetuQi__rate-token {
+  display: flex;
+  align-items: center;
+}
+
+.tetuQi__rate-token img {
+  width: 23px;
+  margin-right: 5px;
+}
+
+.tetuQi__rate-token h4 {
+  margin: 0px !important;
+}
+
+.tetuQi__rate-token-label {
+  margin-right: 16px !important;
+  margin-bottom: 0;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+
+  color: #fff !important;
+}
+
+.tetuQi__rate-token-name {
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+
+  color: #7f8fa4 !important;
+}
+
+.tetuQi__rate-token-value {
+  margin-right: 16px;
+}
+
+.tetuQi__rate-token-value h4 {
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+
+  color: #ffffff !important;
+}
+
+/* @media screen and (max-width: 990px) {
+  .tetuQi__rate-left,
+  .tetuQi__rate-right {
+    display: flex;
+    align-items: center;
+  }
+} */
+
+/* @media screen and (min-width: 1600px) {
+  .tetuQi__rate-right {
+    padding-left: 60px;
+  }
+} */
+
+.ant-typography.tetuQi__rate-label {
+  margin-top: 0.5em;
+}
+
+.tetuQi__rate-right {
+  padding-top: 12px;
+}
+
+.tetuQi__rate-left {
+  padding-top: 12px;
+}
+
+.tetuQi__route {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.tetuQi__route img {
+  height: 44px;
+  width: 44px;
+  margin-left: 20px;
+}
+
+.tetuQi__route h4 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.tetuQi__route-item {
+  display: flex;
+  align-items: center;
+}
+
+/* @media screen and (max-width: 450px) {
+  .tetuQi__rate {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+} */
+
+/* @media screen and (max-width: 767px) {
+  .ant-typography.tetuQi__rate-label,
+  .tetuQi__rate-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tetuQi__rate-label {
+    margin-right: 0;
+  }
+
+  .tetuQi__rate-wrapper {
+    margin: 0 auto;
+  }
+
+  .tetuQi__rate-label .ant-row {
+    justify-content: center;
+  }
+} */
+
+/* @media screen and (max-width: 440px) {
+  .tetuQi__rate-wrapper {
+    padding: 12px !important;
+  }
+
+  .tetuQi__rate-wrapper h4 {
+    font-size: 16px !important;
+  }
+
+  .tetuQi__rate-middle {
+    margin-left: 14px !important;
+    margin-right: 14px !important;
+  }
+
+  .tetuQi__rate-label {
+    margin-bottom: 12px;
+  }
+} */

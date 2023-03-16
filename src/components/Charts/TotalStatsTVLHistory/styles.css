@@ -1,0 +1,14 @@
+.chart-tooltip {
+  display: block !important;
+}
+
+.tvl-chart-label {
+  font-size: 14px;
+  color: #c4c4df;
+}
+
+.tvl-chart-value {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 2px;
+}

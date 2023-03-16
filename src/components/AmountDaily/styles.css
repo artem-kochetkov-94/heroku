@@ -1,0 +1,53 @@
+.amount-daily .caption {
+  font-size: 12px;
+  color: #c4c4df;
+  margin-bottom: 7px;
+}
+
+.amount-daily .wrapper {
+}
+
+.amount-daily .current-value {
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+
+.amount-daily .hour-diff {
+  display: flex;
+}
+
+.amount-daily .hour-diff .label {
+  font-size: 16px;
+  color: #c4c4df;
+  margin-right: 12px;
+}
+
+.amount-daily .hour-diff .diff-value {
+  font-size: 16px;
+  color: #c4c4df;
+  margin-right: 12px;
+}
+
+.amount-daily .hour-diff .diff-percent,
+.diff-percent {
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+.amount-daily .hour-diff .diff-percent.up,
+.diff-percent.up {
+  color: #26c3b1;
+}
+
+.amount-daily .hour-diff .diff-percent.down,
+.diff-percent.down {
+  color: #ff7c7c;
+}
+
+.amount-daily .hour-diff .diff-percent.notChanged,
+.diff-percent.notChanged {
+  color: #c4c4df;
+}

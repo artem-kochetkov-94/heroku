@@ -1,0 +1,18 @@
+.new-year-image {
+  position: relative;
+}
+
+.new-year-image .main {
+}
+
+.new-year-image .part {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.new-year-image .part.show {
+  display: block;
+}

@@ -1,0 +1,104 @@
+.deposit-and-withdraw-wrapper {
+  position: relative;
+  background: #222d40;
+  box-shadow: 0px 20px 20px rgba(21, 21, 21, 0.2);
+  border-radius: 8px;
+}
+
+.operations-swicth-zap {
+  position: relative;
+  padding-left: 34px;
+}
+
+.operations-swicth-zap .ant-switch {
+  width: 32px;
+  min-width: 32px;
+  height: 18px;
+  border: 1px solid #04a8f0;
+}
+
+.operations-swicth-zap .ant-switch-checked .ant-switch-handle {
+  left: calc(100% - 15px);
+}
+
+.operations-swicth-zap .ant-switch-handle {
+  top: 1px;
+  left: 1px;
+  width: 14px;
+  height: 14px;
+}
+
+.operations-swicth-zap-label {
+  position: absolute;
+  top: -3px;
+  right: calc(100% + 12px);
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.operations-swicth-zap-image {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+}
+
+@media (max-width: 575px) {
+  .operations-swicth-zap {
+    margin-bottom: 20px !important;
+  }
+}
+
+.deposit-and-withdraw-wrapper .ant-tabs-nav {
+  margin-bottom: 0;
+}
+
+.deposit-and-withdraw-wrapper .ant-tabs-nav-wrap {
+  width: 100%;
+}
+
+.deposit-and-withdraw-wrapper .ant-tabs-nav-list {
+  width: 100%;
+}
+
+.deposit-and-withdraw-wrapper .ant-tabs-tab {
+  width: 50%;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #7f8fa4;
+}
+
+.deposit-and-withdraw-wrappe .ant-tabs-tab-active {
+  color: #fff;
+}
+
+.deposit-and-withdraw-wrapper .ant-tabs-tab-btn {
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.deposit-and-withdraw-wrapper .ant-tabs-content {
+  padding: 32px 32px 32px;
+}
+
+@media (max-width: 575px) {
+  .deposit-and-withdraw-wrapper .ant-tabs-content {
+    padding: 27px 20px 15px;
+  }
+}
+
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+  border-bottom: 1px solid #04a8f0 !important;
+}

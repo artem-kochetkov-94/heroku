@@ -1,0 +1,23 @@
+{
+  "name": "rinkeby",
+  "networkId": "0x4",
+  "ContractReader": "0x9B1F56a7cE7529522C2E5F32C13422654808Ea7a",
+  "Utils": "0x51be2Ad4f39CC0f722E6900F1db8cb0196ed01b2",
+  "TetuToken": "0x4604E8C1504F0F95DB69d23EADeae699ACd93feB",
+  "faucet": "0xE08a4d6aFC2f3bB5F95ceC1e4D88559d837C08F2",
+  "etherscan": "https://rinkeby.etherscan.io/",
+  "usdc": "0xa85682167bA1da84bccadEf0C737b63c14196803",
+  "fundkeeper": "0x1b6E2a7AcB8f79044bE4b384fa7A1Cac1259bb72",
+  "tetuUsdcLP": "0x02436A8Ce8E92Fe980166b5edd8C844DC2EaC2ee",
+  "tetuUsdcLPVault": "0x02436A8Ce8E92Fe980166b5edd8C844DC2EaC2ee",
+  "PS": "0x97f7540eb87e4cd54dd49BEB2ad0BEfCf3fDeFFE",
+  "liquidityBalancer": "0xDe3A5aC324c271C2F915b82C489A7b316714C442",
+  "notifyHelper": "0x3f37F1fAC94F4c0757c831A2a175d834f62FF497",
+  "governance": "0x1be1C7FCbF41c91Cb3e484eAE2CE432B4733Ad2d",
+  "tetu-usdc": "0x20F63c79b95c530DA2C221e774d087A332b848f7",
+  "multiSwap": "0xe5C203ef4CB3E56766E7936fDE4b157209e93dD5",
+  "zapContract": "0x9Ff04B5D8f6e7fFF99DBE07CAa9a83467Ec4A1c1",
+  "WMATIC": "",
+  "controller": "",
+  "quick-tetu-usdc": ""
+}

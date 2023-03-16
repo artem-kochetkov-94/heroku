@@ -1,0 +1,106 @@
+.tetuQi__total-deposit-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  border-radius: 8px;
+
+  background: linear-gradient(to bottom, #465067 0%, #1b283e 100%);
+
+  overflow: hidden;
+}
+
+.tetuQi__total-deposit-inner {
+  margin: 1px;
+
+  border-radius: 8px;
+
+  background: #1e2839;
+
+  overflow: hidden;
+}
+
+.tetuQi__total-deposit-header {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+  padding: 12px;
+}
+
+.tetuQi__total-deposit {
+  padding: 20px 32px;
+
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+  background: #1e2839;
+}
+
+@media (max-width: 575px) {
+  .tetuQi__total-deposit {
+    padding: 6px 20px 20px;
+  }
+}
+
+.tetuQi__total-deposit img {
+  height: 24px;
+
+  margin-right: 4px;
+}
+
+.tetuQi__total-deposit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  padding-bottom: 5px;
+
+  border-bottom: 1px solid #323e50;
+}
+
+.tetuQi__total-deposit-label {
+  display: flex;
+  align-items: center;
+
+  margin-right: 12px;
+
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #7f8fa4;
+}
+
+.tetuQi__total-deposit-value {
+  flex-shrink: 0;
+}
+
+.tetuQi__total-deposit-value .ant-row {
+  flex-direction: column;
+}
+
+.tetuQi__total-deposit-value,
+.tetuQi__total-deposit-value .amount-component {
+  font-family: 'Source Sans Pro';
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-weight: 400 !important;
+
+  color: #fff;
+}
+
+.tetuQi__total-deposit-sub-value {
+  font-size: 12px !important;
+
+  color: #7f8fa4;
+}
+
+.tetuQi__total-deposit-sub-value .amount-component,
+.tetuQi__total-deposit-sub-value {
+  font-size: 14px !important;
+
+  opacity: 0.7;
+}

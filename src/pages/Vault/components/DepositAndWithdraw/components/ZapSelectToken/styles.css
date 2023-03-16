@@ -1,0 +1,93 @@
+.zap-wrapper {
+  padding-top: 32px;
+  padding-bottom: 2px;
+}
+
+.zap-wrapper .label {
+  margin-bottom: 4px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #7f8fa4;
+}
+
+.zap-wrapper .select-token {
+  width: 100%;
+}
+
+.select-token-for-zapping {
+  width: 144px !important;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px;
+
+  border-radius: 4px !important;
+
+  background: #323d4f !important;
+  color: #ffffff !important;
+}
+
+.select-token-for-zapping .ant-select-selector {
+  background: #323d4f !important;
+}
+
+.zap-wrapper .input-slippage {
+  width: 100%;
+  padding: 8px 20px;
+}
+
+.zap-wrapper .ant-select-selector {
+  position: relative;
+}
+
+.zap-select-wrapper {
+  margin-top: 32px;
+}
+
+@media (max-width: 575px) {
+  .zap-select-wrapper {
+    margin-top: 10px;
+  }
+}
+
+.zap-select-wrapper .label {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #7f8fa4;
+}
+
+@media (max-width: 575px) {
+  .zap-select-wrapper .label {
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+}
+
+.zap-select-wrapper .zap-wrapper {
+  padding-top: 0;
+}
+
+.zap-select-wrapper .select-token-for-zapping {
+  position: absolute;
+  top: 13px;
+  left: 8px;
+  z-index: 1;
+}
+
+.zap-select-wrapper .zap-select-wrapper-input {
+  height: 56px;
+  text-align: right;
+}

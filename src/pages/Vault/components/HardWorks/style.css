@@ -1,0 +1,66 @@
+.hard-works {
+  max-width: 900px;
+}
+
+@media (max-width: 767px) {
+  .hard-works {
+    padding: 0 !important;
+    background-color: transparent !important;
+  }
+
+  .hard-works table {
+    display: block;
+  }
+
+  .hard-works .ant-table-thead {
+    display: none !important;
+  }
+
+  .hard-works .ant-table-tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .hard-works tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin-bottom: 12px;
+    padding: 16px 20px 0;
+
+    border-radius: 8px;
+
+    background-color: #222d40;
+  }
+
+  .hard-works td {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .hard-works td::before {
+    display: block;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #7f8fa4;
+  }
+
+  .hard-works td:nth-child(1)::before {
+    content: 'DATE';
+  }
+  .hard-works td:nth-child(2)::before {
+    content: 'BLOCK NUMBER';
+  }
+  .hard-works td:nth-child(3)::before {
+    content: 'TETU BOUGHTBACK';
+  }
+  .hard-works td:nth-child(4)::before {
+    content: 'TRANSACTION HASH';
+  }
+}

@@ -1,0 +1,30 @@
+export const balancerBoostCalculatorAbi = [
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "vault",
+                "type": "address"
+            }
+        ],
+        "name": "getBalancerBoostInfo",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "derivedBalanceBoost",
+                "type": "uint256"
+            }, {
+                "internalType": "uint256",
+                "name": "ableToBoost",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "gaugeBalance",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

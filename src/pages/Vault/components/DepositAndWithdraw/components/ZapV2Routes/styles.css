@@ -1,0 +1,294 @@
+.oneinch-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.oneinch-wrapper-asset {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.oneinch-wrapper-asset img {
+  width: 32px;
+}
+
+.oneinch-wrapper-asset-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oneinch-wrapper-asset-out {
+}
+
+.oneinch-wrapper-asset-out-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.oneinch-wrapper-asset-images img {
+  width: 24px;
+}
+
+.oneinch-wrapper-asset-images img + img {
+  margin-left: -10px;
+}
+
+.oneinch-wrapper-line {
+  flex-grow: 1;
+  margin: 0 10px;
+  border-bottom: 1px dashed #7f8fa4;
+}
+
+.oneinch-route-link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.oneinch-route-link-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.oneinch-route-link-text {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: #04a8f0;
+}
+
+.zap-routes {
+  margin-top: 24px;
+  padding-top: 16px !important;
+}
+
+.zap-routes-title {
+  margin-bottom: 25px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #7f8fa4;
+}
+
+.oneInchRouter {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 500px) {
+  .oneInchRouter {
+    min-width: 442px;
+  }
+}
+
+.oneInchRouter > .ant-row {
+  flex-grow: 1;
+}
+
+@media (max-width: 500px) {
+  .oneInchRouter img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.zapRoutesWrapper {
+  flex-grow: 1;
+  position: relative;
+  max-width: 580px;
+  margin: 0 9px;
+  padding: 0 9px;
+}
+
+@media (max-width: 720px) {
+  .zapRoutesWrapper {
+    max-width: 530px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 670px) {
+  .zapRoutesWrapper {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .zapRoutesWrapper {
+    max-width: 430px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 570px) {
+  .zapRoutesWrapper {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+}
+
+.zapRoutesWrapper::before,
+.zapRoutesWrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 100%;
+}
+
+.zapRoutesWrapper::before {
+  left: 0;
+  background: radial-gradient(50% 50% at 50% 50%, #4a6185 0%, rgba(74, 97, 133, 0) 100%);
+}
+
+.zapRoutesWrapper::after {
+  right: 0;
+  background: radial-gradient(50% 50% at 50% 50%, #4a6185 0%, rgba(74, 97, 133, 0) 100%);
+}
+
+.zapRouteWrapper {
+  position: relative;
+
+  margin: 12px 0;
+  padding: 6px 8px;
+
+  border: 1px solid #323e50;
+  border-radius: 8px;
+
+  background: #1e2839;
+}
+
+@media (max-width: 500px) {
+  .zapRouteWrapper {
+    padding: 3px 4px;
+  }
+}
+
+.zapRouteWrapper::before,
+.zapRouteWrapper::after {
+  position: absolute;
+
+  top: 50%;
+
+  width: 8px;
+  height: 8px;
+
+  border-bottom: 2px solid #7f8fa4;
+  border-right: 2px solid #7f8fa4;
+
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.zapRouteWrapper::before {
+  content: '';
+  left: calc(100% + 3px);
+}
+
+.zapRouteWrapperFirstChild::after {
+  content: '';
+  right: calc(100% + 7px);
+}
+
+.zapRouteItem {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 4px;
+}
+
+.zapRouteItemToken {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 500px) {
+  .zapRouteItemToken img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.zapRouteItemToken img {
+}
+
+.zapRouteItemPart {
+  min-width: 30px;
+  margin-right: 4px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+
+  color: #d8e2ff;
+}
+
+@media (max-width: 500px) {
+  .zapRouteItemPart {
+    min-width: 28px;
+    margin-right: 2px;
+    font-size: 11px;
+  }
+}
+
+.zapRouteItemName {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #7f8fa4;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+  .zapRouteItemName {
+    font-size: 11px;
+  }
+}
+
+.zap-routes-modal-title {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+@media (max-width: 570px) {
+  .zap-routes-modal .ant-modal-body {
+    padding: 24px 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .zap-routes-modal-body {
+    overflow-x: auto;
+  }
+}

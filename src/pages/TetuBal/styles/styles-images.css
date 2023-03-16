@@ -1,0 +1,15 @@
+.tetuBal__images {
+  margin-bottom: 20px;
+}
+
+.tetuBal__images-item {
+}
+
+.tetuBal__images-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.tetuBal__images-title .ant-typography {
+  color: #fff !important;
+}

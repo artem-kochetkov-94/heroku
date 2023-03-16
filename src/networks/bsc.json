@@ -1,0 +1,13 @@
+{
+  "name": "bsc",
+  "networkId": "0x38",
+  "serverParam": "BSC",
+  "etherscan": "",
+  "fundkeeper": "0x2e75658b77D61a399c7E990b4b43f7b7EE21D9C3",
+  "controller": "0xe926a29f531AC36A0D635a5494Fd8474b9a663aD",
+  "Utils": "0xAe8F54cA54D43473cfaB2da7331067614558E3b6",
+  "ContractReader": "0xE8210A2d1a7B56115a47B8C06a72356773f6838E",
+  "TetuToken": "0x1f681b1c4065057e07b95a1e5e504fb2c85f4625",
+  "PS": "0x00000000000000000000000000000000000000001",
+  "zapContract": "0x00000000000000000000000000000000000000001"
+}

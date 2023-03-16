@@ -1,0 +1,74 @@
+.progress-wrapper {
+  width: 100%;
+  /* margin-bottom: 32px; */
+}
+
+.progress-wrapper .line-wrapper {
+  height: 8px;
+  /* background-color: #412b6b; */
+  background-color: #313d4f;
+  margin: 11px 0;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-wrapper .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-image: url('../../../../../../static/btn-bg.jpg'); */
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#0376a8, #0376a8);
+  height: 8px;
+  width: 100%;
+}
+
+.progress-wrapper .date {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  opacity: 0.8;
+  z-index: 20;
+}
+
+.progress-wrapper-percent {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #0376a8;
+}
+
+.progress-wrapper-days {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: right;
+  text-transform: uppercase;
+
+  color: #7f8fa4;
+}
+
+.progress-wrapper-value-border {
+  display: inline-flex;
+
+  padding: 0 4px;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+  border-radius: 4px;
+
+  background: #384559;
+}
